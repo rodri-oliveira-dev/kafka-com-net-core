@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kafka-consumer", "consumer\kafka-consumer.csproj", "{007AC280-8199-4E5D-B679-8080E44326B1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kafka-producer", "producer\kafka-producer.csproj", "{05E54897-9E46-4D8E-8F1F-2D0C46AE6325}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kafka-config", "kafka-config\kafka-config.csproj", "{9E628CB4-CF88-4931-8C7C-2347C6B60653}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{007AC280-8199-4E5D-B679-8080E44326B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{007AC280-8199-4E5D-B679-8080E44326B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{007AC280-8199-4E5D-B679-8080E44326B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{007AC280-8199-4E5D-B679-8080E44326B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05E54897-9E46-4D8E-8F1F-2D0C46AE6325}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05E54897-9E46-4D8E-8F1F-2D0C46AE6325}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05E54897-9E46-4D8E-8F1F-2D0C46AE6325}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05E54897-9E46-4D8E-8F1F-2D0C46AE6325}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E628CB4-CF88-4931-8C7C-2347C6B60653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E628CB4-CF88-4931-8C7C-2347C6B60653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E628CB4-CF88-4931-8C7C-2347C6B60653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E628CB4-CF88-4931-8C7C-2347C6B60653}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2ED2C2E-9660-486D-B951-BFD37560621E}
+	EndGlobalSection
+EndGlobal
